@@ -79,7 +79,7 @@ namespace DataStructures.Algs
             if (count == 0)
                 throw new InvalidOperationException("queue is empty");
 
-            if (position >= count)
+            if (position < front && position > end)
                 throw new InvalidOperationException($"no item found in the queue at given position {position}");
 
             int actualIndex = 0;
