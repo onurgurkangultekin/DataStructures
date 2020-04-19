@@ -7,7 +7,7 @@ namespace DataStructures.Apps
 {
     public class QueueApp
     {
-        public static void Main(string[] args)
+        public static void _Main(string[] args)
         {
             IQueue<string> ATMqueue = new ListQueue<string>();
             Console.WriteLine("*********enqueue*******");
