@@ -7,7 +7,7 @@ namespace DataStructures.Apps
 {
     public class HashTableApp
     {
-        public static void Main(string[] args)
+        public static void _Main(string[] args)
         {
             HashTable<string, int> roundTable = new HashTable<string, int>();
 
